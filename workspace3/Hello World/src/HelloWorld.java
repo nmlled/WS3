@@ -13,7 +13,7 @@ public class HelloWorld {
 		System.out.println("hello world " + args[0]);
 		
 		
-		String str ="Hello World";
+		String str ="Hello World Olá Mundo";
 		
 		//ternary operator
 		str = (args.length >0)? str + " " + args[0] + " e " + args[1] : str;
