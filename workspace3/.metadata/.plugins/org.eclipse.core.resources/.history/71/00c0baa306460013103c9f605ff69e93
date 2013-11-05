@@ -1,0 +1,41 @@
+/**
+ * *
+ * Class represents Employee
+ *
+ */
+public class Employee {
+	private int empNum;
+	private String name;
+	private String city;
+	
+	//Getters/Setters methods
+public int getempNum(){
+	
+	return empNum;
+}
+
+public void setempNum(int empNum){
+	this.empNum = empNum;
+}
+
+public String getname(){
+	
+	return name;
+}
+
+public void setname(String name){
+	
+	this.name = name;
+}
+
+public String getcity(){
+	
+	return city;
+}
+
+public void setcity(String city){
+	
+	this.city = city;
+}
+
+}
